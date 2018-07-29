@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="src/css/style.css">
+  <title>to do list</title>
+</head>
+<body>
+  <main class="app p-4 mt-5 rounded w-100 mx-auto">
+   <h3 class="text-center mb-4">To Do List</h3>
+     <form>
+       <div class="input-group">
+         <input type="text" class="form-control rounded" placeholder="Add item" id="input" />
+         <input type="checkbox" id="importance" value="important" class="d-none">
+         <label for="importance" class="mb-0 mx-1 btn btn-outline-danger" id="impBtn"><i class="fa fa-exclamation" aria-hidden="true"></i></label>
+         <span class="input-group-btn">
+           <button class="btn btn-primary" type="submit" id="addBtn">Add item</button>
+         </span>
+       </div>
+     </form>
+     <div id="lists" class="mt-4">
+       <ul class="m-0 p-0 list-group" id="importantItemsList">
+       </ul>
+       <ul class="m-0 p-0 list-group" id="regularItemsList">
+       </ul>
+     </div>
+  </main>
+  <script src="build/app.bundle.js"></script>
+</body>
+</html>
