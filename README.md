@@ -13,7 +13,7 @@ Simple to do list app created with HTML, CSS, Bootstrap and JS
 
 ## Code/Live
 
-- [Live](https://plaski.github.io/todo)
+- [Live](https://plaski.github.io/todo/dist)
 
 - [Code](https://github.com/plaski/todo)
 #
