@@ -1,6 +1,4 @@
-// export only public, not private(_)
-
-// save to firebase or create db with api
+import '../scss/style.scss';
 
 import Items from './modules/items'
 import Storage from './modules/storage'
